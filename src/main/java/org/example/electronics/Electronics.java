@@ -1,6 +1,16 @@
 package org.example.electronics;
 
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.MappedSuperclass;
+
+@MappedSuperclass
 abstract public class Electronics {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    protected int id;
     protected double price;
     protected String color;
     protected boolean wasUsed;
@@ -11,6 +21,14 @@ abstract public class Electronics {
         this.price = wasUsed? (price) - (price*0.1) : price;
         this.color = color;
         this.brand = brand;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public double getPrice() {

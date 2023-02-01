@@ -1,11 +1,13 @@
 package org.example.electronics.mobile.smartphones;
 
+import jakarta.persistence.MappedSuperclass;
 import org.example.electronics.mobile.Mobile;
-
-public class Smartphone extends Mobile {
+@MappedSuperclass
+abstract public class Smartphone extends Mobile {
     String cameraResolution;
-    public Smartphone(double price, String color, boolean wasUsed, String brand, int storageCapacity, String size, String cameraResolution) {
-        super(price, color, wasUsed, null, storageCapacity, size);
+
+    public Smartphone(double price, String color, boolean wasUsed, String size, String cameraResolution) {
+        super(price, color, wasUsed,null, size);
         this.cameraResolution = cameraResolution;
     }
 }

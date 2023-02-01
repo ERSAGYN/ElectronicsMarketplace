@@ -4,18 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8cfd5ba-561c-404b-938e-656e74b5947a" name="Changes" comment="Create">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/peripheral/Peripheral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/accessories/Accessory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/variables/Storage.java" afterDir="false" />
+    <list default="true" id="b8cfd5ba-561c-404b-938e-656e74b5947a" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HibernateUtil/DatabaseSave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/android/Android.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/ios/IOS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HibernateUtil/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HibernateUtil/HibernateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Person.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/Electronics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/Electronics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/laptops/GamingLaptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/laptops/GamingLaptop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/laptops/HomeLaptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/laptops/HomeLaptop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/laptops/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/laptops/Laptop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/laptops/WorkLaptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/laptops/WorkLaptop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/monoblocks/Monoblock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/monoblocks/Monoblock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/peripheral/Keyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/peripheral/Keyboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/peripheral/Monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/peripheral/Monitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/peripheral/Mouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/peripheral/Mouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/peripheral/Peripheral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/peripheral/Peripheral.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/Mobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/Mobile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/accessory/Charger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/accessories/Charger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/accessory/Headphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/accessories/Headphone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/accessory/PhoneCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/accessories/PhoneCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/accessories/Accessory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/accessories/Accessory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/accessories/Charger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/accessories/Charger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/accessories/Headphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/accessories/Headphone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/accessories/PhoneCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/accessories/PhoneCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/gadgets/ElectronicBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/gadgets/ElectronicBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/gadgets/FitnessBracelet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/gadgets/FitnessBracelet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/gadgets/Gadget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/gadgets/Gadget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/gadgets/SmartWatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/gadgets/SmartWatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/Smartphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/Smartphone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/android/Honor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/android/Huawei.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/android/Huawei.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/android/Oppo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/android/Oppo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/android/Samsung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/android/Samsung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/android/Xiaomi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/android/Xiaomi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/ios/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/ios/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/variables/Storage.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674795797403</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changes">
+      <created>1675244056658</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675244056658</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,7 +116,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create" />
+    <MESSAGE value="Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

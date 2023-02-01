@@ -1,4 +1,13 @@
 package org.example.electronics.computer.peripheral;
 
-public class Keyboard {
+import jakarta.persistence.Entity;
+
+@Entity
+public class Keyboard extends Peripheral{
+    boolean backlight;
+
+    public Keyboard(double price, String color, boolean wasUsed, String brand, String operationalSystem, boolean hasBluetooth, boolean backlight) {
+        super(price, color, wasUsed, brand, operationalSystem, hasBluetooth);
+        this.backlight = backlight;
+    }
 }
