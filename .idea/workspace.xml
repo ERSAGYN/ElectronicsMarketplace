@@ -4,37 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8cfd5ba-561c-404b-938e-656e74b5947a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HibernateUtil/HibernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/Electronics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/laptops/GamingLaptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/laptops/HomeLaptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/laptops/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/laptops/WorkLaptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/monoblocks/Monoblock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/peripheral/Keyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/peripheral/Monitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/peripheral/Mouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/Mobile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/accessory/Charger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/accessory/Headphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/accessory/PhoneCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/gadgets/ElectronicBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/gadgets/FitnessBracelet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/gadgets/Gadget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/gadgets/SmartWatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/Smartphone.java" afterDir="false" />
+    <list default="true" id="b8cfd5ba-561c-404b-938e-656e74b5947a" name="Changes" comment="Create">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/peripheral/Peripheral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/accessories/Accessory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/variables/Storage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/Electronics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/Electronics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/laptops/Laptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/laptops/Laptop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/Mobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/Mobile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/accessory/Charger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/accessories/Charger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/accessory/Headphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/accessories/Headphone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/accessory/PhoneCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/accessories/PhoneCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/Smartphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/Smartphone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +61,14 @@
       <option name="presentableId" value="Default" />
       <updated>1674474220144</updated>
     </task>
+    <task id="LOCAL-00001" summary="Create">
+      <created>1674795797403</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674795797403</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -92,6 +81,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
