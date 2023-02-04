@@ -10,4 +10,7 @@ abstract public class Android extends Smartphone {
         super(price, color, wasUsed, size, cameraResolution);
         this.androidVersion = androidVersion;
     }
+
+    public Android() {
+    }
 }

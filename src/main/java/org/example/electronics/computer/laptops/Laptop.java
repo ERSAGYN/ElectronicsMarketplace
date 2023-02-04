@@ -12,4 +12,7 @@ abstract public class Laptop extends Computer {
         this.storageCapacity = storageCapacity;
         this.graphicsCard = graphicsCard;
     }
+
+    public Laptop(){
+    }
 }

@@ -10,4 +10,7 @@ abstract public class Smartphone extends Mobile {
         super(price, color, wasUsed,null, size);
         this.cameraResolution = cameraResolution;
     }
+
+    public Smartphone() {
+    }
 }

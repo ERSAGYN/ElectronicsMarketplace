@@ -9,4 +9,7 @@ public class Headphone extends Accessory{
         super(price, color, wasUsed, brand, size, madeInChina);
         this.wireless = wireless;
     }
+
+    public Headphone() {
+    }
 }

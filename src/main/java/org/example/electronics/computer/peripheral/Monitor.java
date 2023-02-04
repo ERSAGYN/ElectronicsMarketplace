@@ -10,4 +10,7 @@ public class Monitor extends Peripheral{
         super(price, color, wasUsed, brand, operationalSystem, hasBluetooth);
         this.inches = inches;
     }
+
+    public Monitor() {
+    }
 }

@@ -10,4 +10,7 @@ public class Samsung extends Android{
         super(price, color, wasUsed, size, cameraResolution, androidVersion);
         this.isFlagman = isFlagman;
     }
+
+    public Samsung() {
+    }
 }

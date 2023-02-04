@@ -10,4 +10,7 @@ public class Xiaomi extends Android{
         super(price, color, wasUsed, size, cameraResolution, androidVersion);
         this.isRedmi = isRedmi;
     }
+
+    public Xiaomi() {
+    }
 }

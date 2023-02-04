@@ -10,4 +10,7 @@ abstract public class Accessory extends Mobile {
         super(price, color, wasUsed, brand, size);
         this.madeInChina = madeInChina;
     }
+
+    public Accessory() {
+    }
 }

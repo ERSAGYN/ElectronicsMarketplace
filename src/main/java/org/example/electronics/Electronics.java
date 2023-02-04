@@ -23,6 +23,9 @@ abstract public class Electronics {
         this.brand = brand;
     }
 
+    public Electronics() {
+    }
+
     public int getId() {
         return id;
     }
@@ -37,6 +40,10 @@ abstract public class Electronics {
 
     public String getColor() {
         return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
     }
 
     public boolean wasUsed() {

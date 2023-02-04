@@ -10,4 +10,7 @@ public class Oppo extends Android{
         super(price, color, wasUsed, size, cameraResolution, androidVersion);
         this.storageCapacity = storageCapacity;
     }
+
+    public Oppo() {
+    }
 }

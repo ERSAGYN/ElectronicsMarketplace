@@ -10,4 +10,7 @@ public class Mouse extends Peripheral{
         super(price, color, wasUsed, brand, operationalSystem, hasBluetooth);
         this.optical = optical;
     }
+
+    public Mouse() {
+    }
 }

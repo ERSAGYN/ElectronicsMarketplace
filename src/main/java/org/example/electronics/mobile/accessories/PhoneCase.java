@@ -10,4 +10,7 @@ public class PhoneCase extends Accessory{
         super(price, color, wasUsed, brand, size, madeInChina);
         this.material = material;
     }
+
+    public PhoneCase() {
+    }
 }

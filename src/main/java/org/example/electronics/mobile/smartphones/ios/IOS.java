@@ -10,4 +10,7 @@ abstract public class IOS extends Smartphone {
         super(price, color, wasUsed, size, cameraResolution);
         this.versionIOS = versionIOS;
     }
+
+    public IOS() {
+    }
 }

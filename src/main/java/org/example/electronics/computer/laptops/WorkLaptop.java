@@ -9,4 +9,7 @@ public class WorkLaptop extends Laptop{
         super(price, color, wasUsed, brand, operationalSystem, storageCapacity, false);
         this.password = password;
     }
+
+    public WorkLaptop() {
+    }
 }

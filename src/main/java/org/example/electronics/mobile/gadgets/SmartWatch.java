@@ -10,4 +10,7 @@ public class SmartWatch extends Gadget{
         super(price, color, wasUsed, brand, size, operationSystem, workingTime);
         this.hasPressureMeter = hasPressureMeter;
     }
+
+    public SmartWatch() {
+    }
 }

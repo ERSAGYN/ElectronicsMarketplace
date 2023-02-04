@@ -12,4 +12,7 @@ abstract public class Gadget extends Mobile {
         this.operationSystem = operationSystem;
         this.workingTime = workingTime;
     }
+
+    public Gadget() {
+    }
 }

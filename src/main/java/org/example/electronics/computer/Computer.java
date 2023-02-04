@@ -9,4 +9,7 @@ abstract public class Computer extends Electronics {
         super(price, color, wasUsed, brand);
         this.operationalSystem = operationalSystem;
     }
+
+    public Computer() {
+    }
 }

@@ -8,4 +8,7 @@ public class HomeLaptop extends Laptop{
     public HomeLaptop(double price, String color, boolean wasUsed, String brand, String operationalSystem, double storageCapacity, boolean graphicsCard) {
         super(price, color, wasUsed, brand, operationalSystem, storageCapacity, graphicsCard);
     }
+
+    public HomeLaptop() {
+    }
 }

@@ -10,4 +10,7 @@ public class ElectronicBook extends Gadget{
         super(price, color, wasUsed, brand, size, operationSystem, workingTime);
         this.backlight = backlight;
     }
+
+    public ElectronicBook() {
+    }
 }

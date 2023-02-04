@@ -9,4 +9,7 @@ abstract public class Mobile extends Electronics {
         super(price, color, wasUsed, brand);
         this.size = size;
     }
+
+    public Mobile() {
+    }
 }

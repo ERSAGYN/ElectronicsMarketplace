@@ -10,4 +10,7 @@ public class Huawei extends Android{
         super(price, color, wasUsed, size, cameraResolution, androidVersion);
         this.hasHarmonyOS = hasHarmonyOS;
     }
+
+    public Huawei() {
+    }
 }

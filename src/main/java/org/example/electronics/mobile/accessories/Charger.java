@@ -10,4 +10,7 @@ public class Charger extends Accessory{
         super(price, color, wasUsed, brand, size, madeInChina);
         this.volt = volt;
     }
+
+    public Charger() {
+    }
 }

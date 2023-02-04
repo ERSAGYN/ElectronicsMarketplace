@@ -10,4 +10,7 @@ public class Apple extends IOS{
         super(price, color, wasUsed, size, cameraResolution, versionIOS);
         this.year = year;
     }
+
+    public Apple() {
+    }
 }

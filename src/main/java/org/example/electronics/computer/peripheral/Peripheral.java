@@ -10,4 +10,7 @@ abstract public class Peripheral extends Computer {
         super(price, color, wasUsed, brand, operationalSystem);
         this.hasBluetooth = hasBluetooth;
     }
+
+    public Peripheral() {
+    }
 }

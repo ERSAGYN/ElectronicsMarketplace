@@ -14,4 +14,7 @@ public class Monoblock extends Computer {
         this.graphicsCard = graphicsCard;
         this.processor = processor;
     }
+
+    public Monoblock() {
+    }
 }
