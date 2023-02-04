@@ -11,6 +11,10 @@ abstract public class Smartphone extends Mobile {
         this.cameraResolution = cameraResolution;
     }
 
+    public String getCameraResolution() {
+        return cameraResolution;
+    }
+
     public Smartphone() {
     }
 }

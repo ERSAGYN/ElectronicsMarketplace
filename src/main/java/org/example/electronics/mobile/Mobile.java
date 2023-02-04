@@ -10,6 +10,10 @@ abstract public class Mobile extends Electronics {
         this.size = size;
     }
 
+    public String getSize() {
+        return size;
+    }
+
     public Mobile() {
     }
 }

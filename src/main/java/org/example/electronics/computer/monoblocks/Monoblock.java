@@ -15,6 +15,18 @@ public class Monoblock extends Computer {
         this.processor = processor;
     }
 
+    public double getStorageCapacity() {
+        return storageCapacity;
+    }
+
+    public String getProcessor() {
+        return processor;
+    }
+
+    public boolean getGraphicsCard(){
+        return graphicsCard;
+    }
+
     public Monoblock() {
     }
 }

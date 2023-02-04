@@ -11,6 +11,10 @@ abstract public class Peripheral extends Computer {
         this.hasBluetooth = hasBluetooth;
     }
 
+    public boolean getHasBluetooth(){
+        return hasBluetooth;
+    }
+
     public Peripheral() {
     }
 }

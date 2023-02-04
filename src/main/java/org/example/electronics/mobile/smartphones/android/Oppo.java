@@ -11,6 +11,10 @@ public class Oppo extends Android{
         this.storageCapacity = storageCapacity;
     }
 
+    public double getStorageCapacity() {
+        return storageCapacity;
+    }
+
     public Oppo() {
     }
 }

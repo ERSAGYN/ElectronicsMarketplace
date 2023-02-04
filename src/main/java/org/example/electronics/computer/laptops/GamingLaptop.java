@@ -16,6 +16,10 @@ public class GamingLaptop extends Laptop{
         this.processor = processor;
     }
 
+    public String getProcessor() {
+        return processor;
+    }
+
     public GamingLaptop() {
 
     }

@@ -10,6 +10,10 @@ public class Headphone extends Accessory{
         this.wireless = wireless;
     }
 
+    public boolean getWireless(){
+        return wireless;
+    }
+
     public Headphone() {
     }
 }

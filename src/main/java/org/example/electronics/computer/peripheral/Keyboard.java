@@ -10,6 +10,9 @@ public class Keyboard extends Peripheral{
         super(price, color, wasUsed, brand, operationalSystem, hasBluetooth);
         this.backlight = backlight;
     }
+    public boolean getBacklight(){
+        return backlight;
+    }
 
     public Keyboard() {
     }

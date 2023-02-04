@@ -9,6 +9,9 @@ public class HomeLaptop extends Laptop{
         super(price, color, wasUsed, brand, operationalSystem, storageCapacity, graphicsCard);
     }
 
+    public boolean getGraphicsCard(){
+        return graphicsCard;
+    }
     public HomeLaptop() {
     }
 }

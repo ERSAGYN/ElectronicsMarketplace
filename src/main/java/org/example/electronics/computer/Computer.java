@@ -10,6 +10,10 @@ abstract public class Computer extends Electronics {
         this.operationalSystem = operationalSystem;
     }
 
+    public String getOperationalSystem() {
+        return operationalSystem;
+    }
+
     public Computer() {
     }
 }

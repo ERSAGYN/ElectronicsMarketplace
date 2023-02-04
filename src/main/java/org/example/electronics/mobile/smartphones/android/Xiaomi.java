@@ -11,6 +11,10 @@ public class Xiaomi extends Android{
         this.isRedmi = isRedmi;
     }
 
+    public boolean getIsRedmi(){
+        return isRedmi;
+    }
+
     public Xiaomi() {
     }
 }

@@ -11,6 +11,9 @@ abstract public class Accessory extends Mobile {
         this.madeInChina = madeInChina;
     }
 
+    public boolean getMadeInChina(){
+        return madeInChina;
+    }
     public Accessory() {
     }
 }

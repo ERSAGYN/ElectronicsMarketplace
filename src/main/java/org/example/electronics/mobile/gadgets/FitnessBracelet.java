@@ -10,6 +10,9 @@ public class FitnessBracelet extends Gadget{
         super(price, color, wasUsed, brand, size, operationSystem, workingTime);
         this.hasPressureMeter = hasPressureMeter;
     }
+    public boolean getHasPressureMeter(){
+        return hasPressureMeter;
+    }
 
     public FitnessBracelet() {
     }

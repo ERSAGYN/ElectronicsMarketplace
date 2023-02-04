@@ -11,6 +11,10 @@ abstract public class Android extends Smartphone {
         this.androidVersion = androidVersion;
     }
 
+    public String getAndroidVersion() {
+        return androidVersion;
+    }
+
     public Android() {
     }
 }

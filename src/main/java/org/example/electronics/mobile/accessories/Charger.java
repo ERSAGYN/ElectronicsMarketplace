@@ -11,6 +11,10 @@ public class Charger extends Accessory{
         this.volt = volt;
     }
 
+    public double getVolt() {
+        return volt;
+    }
+
     public Charger() {
     }
 }

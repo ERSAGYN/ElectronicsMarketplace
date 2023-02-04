@@ -10,6 +10,10 @@ public class WorkLaptop extends Laptop{
         this.password = password;
     }
 
+    public String getPassword() {
+        return password;
+    }
+
     public WorkLaptop() {
     }
 }

@@ -13,6 +13,13 @@ abstract public class Laptop extends Computer {
         this.graphicsCard = graphicsCard;
     }
 
+    public double getStorageCapacity() {
+        return storageCapacity;
+    }
+    public boolean getGraphicsCard(){
+        return graphicsCard;
+    }
+
     public Laptop(){
     }
 }

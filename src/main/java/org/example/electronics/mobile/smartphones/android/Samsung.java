@@ -11,6 +11,9 @@ public class Samsung extends Android{
         this.isFlagman = isFlagman;
     }
 
+    public boolean getIsFlagman(){
+        return isFlagman;
+    }
     public Samsung() {
     }
 }

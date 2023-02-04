@@ -11,6 +11,9 @@ public class ElectronicBook extends Gadget{
         this.backlight = backlight;
     }
 
+    public boolean getBackLight(){
+        return backlight;
+    }
     public ElectronicBook() {
     }
 }
