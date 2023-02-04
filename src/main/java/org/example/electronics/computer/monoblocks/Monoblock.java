@@ -15,6 +15,18 @@ public class Monoblock extends Computer {
         this.processor = processor;
     }
 
+    public void setStorageCapacity(double storageCapacity) {
+        this.storageCapacity = storageCapacity;
+    }
+
+    public void setGraphicsCard(boolean graphicsCard) {
+        this.graphicsCard = graphicsCard;
+    }
+
+    public void setProcessor(String processor) {
+        this.processor = processor;
+    }
+
     public double getStorageCapacity() {
         return storageCapacity;
     }

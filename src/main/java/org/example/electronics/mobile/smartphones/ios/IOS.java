@@ -11,6 +11,10 @@ abstract public class IOS extends Smartphone {
         this.versionIOS = versionIOS;
     }
 
+    public void setVersionIOS(String versionIOS) {
+        this.versionIOS = versionIOS;
+    }
+
     public String getVersionIOS() {
         return versionIOS;
     }

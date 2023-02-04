@@ -15,6 +15,10 @@ public class Monitor extends Peripheral{
         return inches;
     }
 
+    public void setInches(double inches) {
+        this.inches = inches;
+    }
+
     public Monitor() {
     }
 }

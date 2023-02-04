@@ -9,6 +9,10 @@ public class HomeLaptop extends Laptop{
         super(price, color, wasUsed, brand, operationalSystem, storageCapacity, graphicsCard);
     }
 
+    public void setGraphicsCard(boolean graphicsCard) {
+        this.graphicsCard = graphicsCard;
+    }
+
     public boolean getGraphicsCard(){
         return graphicsCard;
     }

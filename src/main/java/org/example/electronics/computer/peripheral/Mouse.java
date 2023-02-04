@@ -14,6 +14,11 @@ public class Mouse extends Peripheral{
     public boolean getOptical(){
         return optical;
     }
+
+    public void setOptical(boolean optical) {
+        this.optical = optical;
+    }
+
     public Mouse() {
     }
 }

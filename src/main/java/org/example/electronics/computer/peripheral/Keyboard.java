@@ -14,6 +14,10 @@ public class Keyboard extends Peripheral{
         return backlight;
     }
 
+    public void setBacklight(boolean backlight) {
+        this.backlight = backlight;
+    }
+
     public Keyboard() {
     }
 }

@@ -13,6 +13,11 @@ public class SmartWatch extends Gadget{
     public boolean getHasPressureMeter(){
         return hasPressureMeter;
     }
+
+    public void setHasPressureMeter(boolean hasPressureMeter) {
+        this.hasPressureMeter = hasPressureMeter;
+    }
+
     public SmartWatch() {
     }
 }

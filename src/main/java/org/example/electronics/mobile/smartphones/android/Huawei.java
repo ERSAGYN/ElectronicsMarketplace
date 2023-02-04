@@ -14,6 +14,11 @@ public class Huawei extends Android{
     public boolean getHasHarmonyOS(){
         return hasHarmonyOS;
     }
+
+    public void setHasHarmonyOS(boolean hasHarmonyOS) {
+        this.hasHarmonyOS = hasHarmonyOS;
+    }
+
     public Huawei() {
     }
 }

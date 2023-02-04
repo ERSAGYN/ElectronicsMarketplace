@@ -11,6 +11,10 @@ public class Apple extends IOS{
         this.year = year;
     }
 
+    public void setYear(double year) {
+        this.year = year;
+    }
+
     public double getYear() {
         return year;
     }

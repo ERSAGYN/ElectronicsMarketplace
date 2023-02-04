@@ -17,6 +17,14 @@ abstract public class Gadget extends Mobile {
         return workingTime;
     }
 
+    public void setOperationSystem(String operationSystem) {
+        this.operationSystem = operationSystem;
+    }
+
+    public void setWorkingTime(double workingTime) {
+        this.workingTime = workingTime;
+    }
+
     public String getOperationSystem() {
         return operationSystem;
     }

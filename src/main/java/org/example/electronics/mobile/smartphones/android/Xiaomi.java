@@ -15,6 +15,10 @@ public class Xiaomi extends Android{
         return isRedmi;
     }
 
+    public void setRedmi(boolean isRedmi) {
+        isRedmi = isRedmi;
+    }
+
     public Xiaomi() {
     }
 }

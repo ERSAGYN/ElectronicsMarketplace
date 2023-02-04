@@ -15,6 +15,10 @@ public class PhoneCase extends Accessory{
         return material;
     }
 
+    public void setMaterial(String material) {
+        this.material = material;
+    }
+
     public PhoneCase() {
     }
 }

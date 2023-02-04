@@ -14,6 +14,11 @@ public class Samsung extends Android{
     public boolean getIsFlagman(){
         return isFlagman;
     }
+
+    public void setFlagman(boolean isFlagman) {
+        isFlagman = isFlagman;
+    }
+
     public Samsung() {
     }
 }

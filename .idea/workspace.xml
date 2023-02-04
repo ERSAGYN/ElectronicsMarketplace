@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8cfd5ba-561c-404b-938e-656e74b5947a" name="Changes" comment="Hibernate Annotations and database connection">
+    <list default="true" id="b8cfd5ba-561c-404b-938e-656e74b5947a" name="Changes" comment="getters">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/Computer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/laptops/GamingLaptop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/laptops/GamingLaptop.java" afterDir="false" />
@@ -16,6 +16,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/peripheral/Monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/peripheral/Monitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/peripheral/Mouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/peripheral/Mouse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/peripheral/Peripheral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/computer/peripheral/Peripheral.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/Mobile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/Mobile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/accessories/Accessory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/accessories/Accessory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/accessories/Charger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/accessories/Charger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/accessories/Headphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/accessories/Headphone.java" afterDir="false" />
@@ -24,7 +25,14 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/gadgets/FitnessBracelet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/gadgets/FitnessBracelet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/gadgets/Gadget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/gadgets/Gadget.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/gadgets/SmartWatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/gadgets/SmartWatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/Smartphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/Smartphone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/android/Android.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/android/Android.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/android/Huawei.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/android/Huawei.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/android/Oppo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/android/Oppo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/android/Samsung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/android/Samsung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/android/Xiaomi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/android/Xiaomi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/ios/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/ios/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/ios/IOS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/electronics/mobile/smartphones/ios/IOS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675272489007</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="getters">
+      <created>1675502481625</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675502481625</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,7 +124,8 @@
     <MESSAGE value="Create" />
     <MESSAGE value="Changes" />
     <MESSAGE value="Hibernate Annotations and database connection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hibernate Annotations and database connection" />
+    <MESSAGE value="getters" />
+    <option name="LAST_COMMIT_MESSAGE" value="getters" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
