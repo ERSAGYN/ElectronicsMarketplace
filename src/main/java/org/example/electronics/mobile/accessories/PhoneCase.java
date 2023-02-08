@@ -21,4 +21,9 @@ public class PhoneCase extends Accessory{
 
     public PhoneCase() {
     }
+
+    @Override
+    public void print() {
+        System.out.println(getId() + "\t" + getBrand() + "\t" + getPrice() + "\t" + getColor() + "\t" + getSize() + "\t" + getMadeInChina() + "\t" + getMaterial());
+    }
 }

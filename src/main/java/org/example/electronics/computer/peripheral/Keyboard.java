@@ -20,4 +20,9 @@ public class Keyboard extends Peripheral{
 
     public Keyboard() {
     }
+
+    @Override
+    public void print() {
+        System.out.println(getId() + "\t" + getBrand() + "\t" + getPrice() + "\t" + getColor() + getOperationalSystem() + "\t" + getBacklight());
+    }
 }

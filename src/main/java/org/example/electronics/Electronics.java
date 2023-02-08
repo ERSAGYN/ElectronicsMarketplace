@@ -54,4 +54,5 @@ abstract public class Electronics {
         return brand;
     }
 
+    public abstract void print();
 }

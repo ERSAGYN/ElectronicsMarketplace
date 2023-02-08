@@ -20,4 +20,9 @@ public class WorkLaptop extends Laptop{
 
     public WorkLaptop() {
     }
+
+    @Override
+    public void print() {
+        System.out.println(getId() + "\t" + getBrand() + "\t" + getPrice() + "\t" + getStorageCapacity() + "\t" + getColor() + "\t" + getGraphicsCard() + "\t" + getOperationalSystem() + getPassword());
+    }
 }

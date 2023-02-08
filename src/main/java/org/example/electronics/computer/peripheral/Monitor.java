@@ -21,4 +21,9 @@ public class Monitor extends Peripheral{
 
     public Monitor() {
     }
+
+    @Override
+    public void print() {
+        System.out.println(getId() + "\t" + getBrand() + "\t" + getPrice() + "\t" + getColor() + getOperationalSystem() + "\t" + getInches());
+    }
 }

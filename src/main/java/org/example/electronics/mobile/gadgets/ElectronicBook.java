@@ -20,4 +20,9 @@ public class ElectronicBook extends Gadget{
     }
     public ElectronicBook() {
     }
+
+    @Override
+    public void print() {
+        System.out.println(getId() + "\t" + getBrand() + "\t" + getPrice() + "\t" + getColor() + "\t" + getSize() + "\t" + getOperationSystem() + "\t" + getSize() + "\t" + getBackLight());
+    }
 }

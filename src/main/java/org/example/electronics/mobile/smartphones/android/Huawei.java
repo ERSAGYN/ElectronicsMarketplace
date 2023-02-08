@@ -21,4 +21,9 @@ public class Huawei extends Android{
 
     public Huawei() {
     }
+
+    @Override
+    public void print() {
+        System.out.println(getId() + "\t" + getBrand() + "\t" + getPrice() + "\t" + getColor() + "\t" + getSize() + "\t" + getCameraResolution() + "\t" + getAndroidVersion() + "\t" + getSize() + "\t" + getHasHarmonyOS());
+    }
 }

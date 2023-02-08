@@ -20,4 +20,9 @@ public class SmartWatch extends Gadget{
 
     public SmartWatch() {
     }
+
+    @Override
+    public void print() {
+        System.out.println(getId() + "\t" + getBrand() + "\t" + getPrice() + "\t" + getColor() + "\t" + getSize() + "\t" + getOperationSystem() + "\t" + getSize() + "\t" + getHasPressureMeter());
+    }
 }

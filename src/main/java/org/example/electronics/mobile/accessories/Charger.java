@@ -21,4 +21,9 @@ public class Charger extends Accessory{
 
     public Charger() {
     }
+
+    @Override
+    public void print() {
+        System.out.println(getId() + "\t" + getBrand() + "\t" + getPrice() + "\t" + getColor() + "\t" + getSize() + "\t" + getMadeInChina() + "\t" + getVolt());
+    }
 }

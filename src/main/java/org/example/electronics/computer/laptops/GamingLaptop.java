@@ -28,10 +28,8 @@ public class GamingLaptop extends Laptop{
 
     }
 
-    public static List<GamingLaptop> getGamingLaptopsDB() {
-        try (Session session = HibernateUtil.getSessionFactory().openSession()) {
-            //return session.get(Car.class,0); // return one object
-            return session.createQuery("from GamingLaptop", GamingLaptop.class).list(); // return list of objects
-        }
+    @Override
+    public void print() {
+        System.out.println(getId() + "\t" + getBrand() + "\t" + getPrice() + "\t" + getStorageCapacity() + "\t" + getColor() + "\t" + getGraphicsCard() + "\t" + getOperationalSystem() + "\t" + getProcessor());
     }
 }

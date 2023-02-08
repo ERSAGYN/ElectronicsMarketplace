@@ -20,4 +20,9 @@ public class Headphone extends Accessory{
 
     public Headphone() {
     }
+
+    @Override
+    public void print() {
+        System.out.println(getId() + "\t" + getBrand() + "\t" + getPrice() + "\t" + getColor() + "\t" + getSize() + "\t" + getMadeInChina() + "\t" + getWireless());
+    }
 }

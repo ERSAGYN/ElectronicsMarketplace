@@ -4,7 +4,7 @@ import jakarta.persistence.Entity;
 
 @Entity
 public class HomeLaptop extends Laptop{
-    boolean graphicsCard;
+
     public HomeLaptop(double price, String color, boolean wasUsed, String brand, String operationalSystem, double storageCapacity, boolean graphicsCard) {
         super(price, color, wasUsed, brand, operationalSystem, storageCapacity, graphicsCard);
     }
@@ -17,5 +17,10 @@ public class HomeLaptop extends Laptop{
         return graphicsCard;
     }
     public HomeLaptop() {
+    }
+
+    @Override
+    public void print() {
+        System.out.println(getId() + "\t" + getBrand() + "\t" + getPrice() + "\t" + getStorageCapacity() + "\t" + getColor() + "\t" + getGraphicsCard() + "\t" + getOperationalSystem());
     }
 }

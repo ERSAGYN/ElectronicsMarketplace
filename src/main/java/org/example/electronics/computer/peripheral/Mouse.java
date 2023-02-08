@@ -21,4 +21,9 @@ public class Mouse extends Peripheral{
 
     public Mouse() {
     }
+
+    @Override
+    public void print() {
+        System.out.println(getId() + "\t" + getBrand() + "\t" + getPrice() + "\t" + getColor() + getOperationalSystem() + "\t" + getOptical());
+    }
 }

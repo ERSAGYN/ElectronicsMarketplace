@@ -21,4 +21,9 @@ public class Apple extends IOS{
 
     public Apple() {
     }
+
+    @Override
+    public void print() {
+        System.out.println(getId() + "\t" + getBrand() + "\t" + getPrice() + "\t" + getColor() + "\t" + getSize() + "\t" + getCameraResolution() + "\t" + getVersionIOS() + "\t" + getSize() + "\t" + getYear());
+    }
 }
