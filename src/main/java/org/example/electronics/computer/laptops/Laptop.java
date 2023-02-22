@@ -1,9 +1,9 @@
 package org.example.electronics.computer.laptops;
 
-import jakarta.persistence.MappedSuperclass;
+import jakarta.persistence.Entity;
 import org.example.electronics.computer.Computer;
-@MappedSuperclass
-abstract public class Laptop extends Computer {
+@Entity
+public class Laptop extends Computer {
     double storageCapacity;
     boolean graphicsCard;
 
@@ -29,5 +29,18 @@ abstract public class Laptop extends Computer {
     }
 
     public Laptop(){
+    }
+
+    @Override
+    public void print() {
+        System.out.println("Laptop{" +
+                "storageCapacity=" + storageCapacity +
+                ", graphicsCard=" + graphicsCard +
+                ", id=" + id +
+                ", price=" + price +
+                ", color='" + color + '\'' +
+                ", wasUsed=" + wasUsed +
+                ", brand='" + brand + '\'' +
+                '}');
     }
 }

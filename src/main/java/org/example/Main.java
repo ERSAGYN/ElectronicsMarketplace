@@ -2,11 +2,13 @@ package org.example;
 
 import org.example.HibernateUtil.DatabaseSave;
 import org.example.electronics.Electronics;
-import org.example.electronics.computer.laptops.GamingLaptop;
-import org.example.electronics.computer.laptops.HomeLaptop;
-import org.example.electronics.computer.laptops.WorkLaptop;
+import org.example.electronics.ElectronicsBuilder;
+import org.example.electronics.computer.laptops.Laptop;
+import org.example.electronics.computer.laptops.LaptopBuilder;
 import org.example.electronics.computer.monoblocks.Monoblock;
+import org.example.electronics.computer.monoblocks.MonoblockBuilder;
 import org.example.electronics.computer.peripheral.Keyboard;
+import org.example.electronics.computer.peripheral.KeyboardBuilder;
 import org.example.electronics.computer.peripheral.Monitor;
 import org.example.electronics.computer.peripheral.Mouse;
 import org.example.electronics.mobile.accessories.Charger;
@@ -21,7 +23,6 @@ import org.example.electronics.mobile.smartphones.android.Samsung;
 import org.example.electronics.mobile.smartphones.android.Xiaomi;
 import org.example.electronics.mobile.smartphones.ios.Apple;
 
-import javax.xml.crypto.Data;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -29,11 +30,9 @@ public class Main {
     static ArrayList<Electronics> electronicsArrayList = new ArrayList<>();
     static Scanner scan = new Scanner(System.in);
     public static void main(String[] args) {
-        electronicsArrayList.addAll(DatabaseSave.getDataFromDB(GamingLaptop.class));
-        electronicsArrayList.addAll(DatabaseSave.getDataFromDB(HomeLaptop.class));
-        electronicsArrayList.addAll(DatabaseSave.getDataFromDB(WorkLaptop.class));
+        electronicsArrayList.addAll(DatabaseSave.getDataFromDB(Laptop.class));
 
-        electronicsArrayList.addAll(DatabaseSave.getDataFromDB(Monoblock.class));
+        /*electronicsArrayList.addAll(DatabaseSave.getDataFromDB(Monoblock.class));
 
         electronicsArrayList.addAll(DatabaseSave.getDataFromDB(Keyboard.class));
         electronicsArrayList.addAll(DatabaseSave.getDataFromDB(Monitor.class));
@@ -52,7 +51,7 @@ public class Main {
         electronicsArrayList.addAll(DatabaseSave.getDataFromDB(Samsung.class));
         electronicsArrayList.addAll(DatabaseSave.getDataFromDB(Xiaomi.class));
 
-        electronicsArrayList.addAll(DatabaseSave.getDataFromDB(Apple.class));
+        electronicsArrayList.addAll(DatabaseSave.getDataFromDB(Apple.class));*/
         //electronicsArrayList.add(new GamingLaptop(200, "nono", false, "NOT CHANGED", "Windows", 512, "Intel Core i5"));
         //electronicsArrayList.add(new Huawei(200, "red", false, "55x55", "Windows", "9.1", false));
         /*for(Electronics e: electronicsArrayList){
@@ -83,8 +82,9 @@ public class Main {
         /*for(Electronics e: electronicsArrayList){
             DatabaseSave.save(e);
         }*/
-        mainMenu();
+        //mainMenu();
 
+        mainMenu();
     }
 
     static void printOut() {
@@ -106,7 +106,7 @@ public class Main {
         mainMenu();
     }
     static void mainMenu() {
-        System.out.println("1. Вывести список электроники.\n2. Удалить объект с базы данных.\n3. Выйти");
+        System.out.println("1. Вывести список электроники.\n2. Удалить объект с базы данных.\n3.Создать объект.\n4. Выйти");
         int number = scan.nextInt();
         switch(number) {
             case 1:
@@ -116,7 +116,118 @@ public class Main {
                 deleteObject();
                 break;
             case 3:
+                createObject();
                 break;
+            case 4:
+                break;
+        }
+    }
+
+
+    public static void laptopCreator(LaptopBuilder laptopBuilder){
+        System.out.println("1. Price.\n2. Color.\n3.Was used.\n4. Brand\n5. Create object\n4. Выйти");
+        int number = scan.nextInt();
+        switch(number) {
+            case 1:
+                double price = scan.nextInt();
+                laptopBuilder.setPrice(price);
+                break;
+            case 2:
+                String color = scan.next();
+                laptopBuilder.setColor(color);
+                break;
+            case 3:
+                boolean wasUsed = scan.nextBoolean();
+                laptopBuilder.setWasUsed(wasUsed);
+                break;
+            case 4:
+                String brand = scan.next();
+                laptopBuilder.setBrand(brand);
+                break;
+            case 5:
+                Laptop laptop = laptopBuilder.build();
+                laptop.print();
+                return;
+            case 6:
+                return;
+        }
+        laptopCreator(laptopBuilder);
+    }
+
+    public static void monoblockCreator(MonoblockBuilder monoblockBuilder){
+        System.out.println("1. Price.\n2. Color.\n3.Was used.\n4. Brand\n5. Create object\n4. Выйти");
+        int number = scan.nextInt();
+        switch(number) {
+            case 1:
+                double price = scan.nextInt();
+                monoblockBuilder.setPrice(price);
+                break;
+            case 2:
+                String color = scan.next();
+                monoblockBuilder.setColor(color);
+                break;
+            case 3:
+                boolean wasUsed = scan.nextBoolean();
+                monoblockBuilder.setWasUsed(wasUsed);
+                break;
+            case 4:
+                String brand = scan.next();
+                monoblockBuilder.setBrand(brand);
+                break;
+            case 5:
+                Monoblock monoblock = monoblockBuilder.build();
+                monoblock.print();
+                return;
+            case 6:
+                return;
+        }
+        monoblockCreator(monoblockBuilder);
+    }
+
+    public static void keyboardCreator(KeyboardBuilder keyboardBuilder){
+        System.out.println("1. Price.\n2. Color.\n3.Was used.\n4. Brand\n5. Create object\n4. Выйти");
+        int number = scan.nextInt();
+        switch(number) {
+            case 1:
+                double price = scan.nextInt();
+                keyboardBuilder.setPrice(price);
+                break;
+            case 2:
+                String color = scan.next();
+                keyboardBuilder.setColor(color);
+                break;
+            case 3:
+                boolean wasUsed = scan.nextBoolean();
+                keyboardBuilder.setWasUsed(wasUsed);
+                break;
+            case 4:
+                String brand = scan.next();
+                keyboardBuilder.setBrand(brand);
+                break;
+            case 5:
+                Keyboard keyboard = keyboardBuilder.build();
+                keyboard.print();
+                return;
+            case 6:
+                return;
+        }
+        keyboardCreator(keyboardBuilder);
+    }
+    static void createObject(){
+        System.out.println("1. Laptop.\n2. Monoblock.\n3.Keyboard.\n4. Выйти");
+        int number = scan.nextInt();
+        switch(number) {
+            case 1:
+                laptopCreator(new LaptopBuilder());
+                break;
+            case 2:
+                monoblockCreator(new MonoblockBuilder());
+                break;
+            case 3:
+                keyboardCreator(new KeyboardBuilder());
+                break;
+            case 4:
+                return;
         }
     }
 }

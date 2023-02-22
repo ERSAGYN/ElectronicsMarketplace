@@ -44,6 +44,15 @@ public class Monoblock extends Computer {
 
     @Override
     public void print() {
-        System.out.println(getId() + "\t" + getBrand() + "\t" + getPrice() + "\t" + getStorageCapacity() + "\t" + getColor() + "\t" + getGraphicsCard() + "\t" + getOperationalSystem() + getStorageCapacity() + getProcessor());
+        System.out.println("Monoblock{" +
+                "storageCapacity=" + storageCapacity +
+                ", graphicsCard=" + graphicsCard +
+                ", processor='" + processor + '\'' +
+                ", id=" + id +
+                ", price=" + price +
+                ", color='" + color + '\'' +
+                ", wasUsed=" + wasUsed +
+                ", brand='" + brand + '\'' +
+                '}');
     }
 }

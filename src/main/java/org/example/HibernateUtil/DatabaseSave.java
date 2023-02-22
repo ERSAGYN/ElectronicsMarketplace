@@ -1,7 +1,6 @@
 package org.example.HibernateUtil;
 
 import org.example.electronics.Electronics;
-import org.example.electronics.computer.laptops.GamingLaptop;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 

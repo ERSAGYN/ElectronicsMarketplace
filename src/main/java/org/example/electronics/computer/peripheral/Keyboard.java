@@ -23,6 +23,14 @@ public class Keyboard extends Peripheral{
 
     @Override
     public void print() {
-        System.out.println(getId() + "\t" + getBrand() + "\t" + getPrice() + "\t" + getColor() + getOperationalSystem() + "\t" + getBacklight());
+        System.out.println("Keyboard{" +
+                "backlight=" + backlight +
+                ", hasBluetooth=" + hasBluetooth +
+                ", id=" + id +
+                ", price=" + price +
+                ", color='" + color + '\'' +
+                ", wasUsed=" + wasUsed +
+                ", brand='" + brand + '\'' +
+                '}');
     }
 }

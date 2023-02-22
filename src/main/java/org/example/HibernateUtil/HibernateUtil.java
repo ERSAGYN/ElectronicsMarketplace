@@ -1,9 +1,7 @@
 package org.example.HibernateUtil;
 import java.util.Properties;
 
-import org.example.electronics.computer.laptops.GamingLaptop;
-import org.example.electronics.computer.laptops.HomeLaptop;
-import org.example.electronics.computer.laptops.WorkLaptop;
+import org.example.electronics.computer.laptops.Laptop;
 import org.example.electronics.computer.monoblocks.Monoblock;
 import org.example.electronics.computer.peripheral.Keyboard;
 import org.example.electronics.computer.peripheral.Monitor;
@@ -49,9 +47,7 @@ public class HibernateUtil {
 
                 configuration.setProperties(settings);
 
-                configuration.addAnnotatedClass(GamingLaptop.class);
-                configuration.addAnnotatedClass(HomeLaptop.class);
-                configuration.addAnnotatedClass(WorkLaptop.class);
+                configuration.addAnnotatedClass(Laptop.class);
 
                 configuration.addAnnotatedClass(Monoblock.class);
                 configuration.addAnnotatedClass(Keyboard.class);

@@ -26,6 +26,18 @@ abstract public class Electronics {
     public Electronics() {
     }
 
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public void setWasUsed(boolean wasUsed) {
+        this.wasUsed = wasUsed;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
     public int getId() {
         return id;
     }
