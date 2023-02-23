@@ -7,10 +7,7 @@ import org.example.electronics.computer.laptops.Laptop;
 import org.example.electronics.computer.laptops.LaptopBuilder;
 import org.example.electronics.computer.monoblocks.Monoblock;
 import org.example.electronics.computer.monoblocks.MonoblockBuilder;
-import org.example.electronics.computer.peripheral.Keyboard;
-import org.example.electronics.computer.peripheral.KeyboardBuilder;
-import org.example.electronics.computer.peripheral.Monitor;
-import org.example.electronics.computer.peripheral.Mouse;
+import org.example.electronics.computer.peripheral.*;
 import org.example.electronics.mobile.accessories.Charger;
 import org.example.electronics.mobile.accessories.Headphone;
 import org.example.electronics.mobile.accessories.PhoneCase;
@@ -32,7 +29,7 @@ public class Main {
     public static void main(String[] args) {
         electronicsArrayList.addAll(DatabaseSave.getDataFromDB(Laptop.class));
 
-        /*electronicsArrayList.addAll(DatabaseSave.getDataFromDB(Monoblock.class));
+        electronicsArrayList.addAll(DatabaseSave.getDataFromDB(Monoblock.class));
 
         electronicsArrayList.addAll(DatabaseSave.getDataFromDB(Keyboard.class));
         electronicsArrayList.addAll(DatabaseSave.getDataFromDB(Monitor.class));
@@ -51,7 +48,7 @@ public class Main {
         electronicsArrayList.addAll(DatabaseSave.getDataFromDB(Samsung.class));
         electronicsArrayList.addAll(DatabaseSave.getDataFromDB(Xiaomi.class));
 
-        electronicsArrayList.addAll(DatabaseSave.getDataFromDB(Apple.class));*/
+        electronicsArrayList.addAll(DatabaseSave.getDataFromDB(Apple.class));
         //electronicsArrayList.add(new GamingLaptop(200, "nono", false, "NOT CHANGED", "Windows", 512, "Intel Core i5"));
         //electronicsArrayList.add(new Huawei(200, "red", false, "55x55", "Windows", "9.1", false));
         /*for(Electronics e: electronicsArrayList){
@@ -83,7 +80,7 @@ public class Main {
             DatabaseSave.save(e);
         }*/
         //mainMenu();
-
+        //Laptop laptop = new LaptopBuilder().setBrand("ERSA").setPrice(599).build();
         mainMenu();
     }
 
@@ -146,6 +143,7 @@ public class Main {
                 break;
             case 5:
                 Laptop laptop = laptopBuilder.build();
+                DatabaseSave.save(laptop);
                 laptop.print();
                 return;
             case 6:
@@ -176,6 +174,7 @@ public class Main {
                 break;
             case 5:
                 Monoblock monoblock = monoblockBuilder.build();
+                DatabaseSave.save(monoblock);
                 monoblock.print();
                 return;
             case 6:
@@ -206,6 +205,7 @@ public class Main {
                 break;
             case 5:
                 Keyboard keyboard = keyboardBuilder.build();
+                DatabaseSave.save(keyboard);
                 keyboard.print();
                 return;
             case 6:
@@ -213,8 +213,68 @@ public class Main {
         }
         keyboardCreator(keyboardBuilder);
     }
+    public static void mouseCreator(MouseBuilder mouseBuilder){
+        System.out.println("1. Price.\n2. Color.\n3.Was used.\n4. Brand\n5. Create object\n4. Выйти");
+        int number = scan.nextInt();
+        switch(number) {
+            case 1:
+                double price = scan.nextInt();
+                mouseBuilder.setPrice(price);
+                break;
+            case 2:
+                String color = scan.next();
+                mouseBuilder.setColor(color);
+                break;
+            case 3:
+                boolean wasUsed = scan.nextBoolean();
+                mouseBuilder.setWasUsed(wasUsed);
+                break;
+            case 4:
+                String brand = scan.next();
+                mouseBuilder.setBrand(brand);
+                break;
+            case 5:
+                Mouse mouse = mouseBuilder.build();
+                DatabaseSave.save(mouse);
+                mouse.print();
+                return;
+            case 6:
+                return;
+        }
+        mouseCreator(mouseBuilder);
+    }
+    public static void monitorCreator(MonitorBuilder monitorBuilder){
+        System.out.println("1. Price.\n2. Color.\n3.Was used.\n4. Brand\n5. Create object\n4. Выйти");
+        int number = scan.nextInt();
+        switch(number) {
+            case 1:
+                double price = scan.nextInt();
+                monitorBuilder.setPrice(price);
+                break;
+            case 2:
+                String color = scan.next();
+                monitorBuilder.setColor(color);
+                break;
+            case 3:
+                boolean wasUsed = scan.nextBoolean();
+                monitorBuilder.setWasUsed(wasUsed);
+                break;
+            case 4:
+                String brand = scan.next();
+                monitorBuilder.setBrand(brand);
+                break;
+            case 5:
+                Monitor monitor = monitorBuilder.build();
+                DatabaseSave.save(monitor);
+                monitor.print();
+                return;
+            case 6:
+                return;
+        }
+        monitorCreator(monitorBuilder);
+    }
     static void createObject(){
-        System.out.println("1. Laptop.\n2. Monoblock.\n3.Keyboard.\n4. Выйти");
+        System.out.println("1. Laptop.\n2. Monoblock.\n3.Keyboard.\n4.Monitor.\n5.Mouse.\n6. Выйти");
         int number = scan.nextInt();
         switch(number) {
             case 1:
@@ -227,6 +287,12 @@ public class Main {
                 keyboardCreator(new KeyboardBuilder());
                 break;
             case 4:
+                monitorCreator(new MonitorBuilder());
+                break;
+            case 5:
+                mouseCreator(new MouseBuilder());
+                break;
+            case 6:
                 return;
         }
     }
